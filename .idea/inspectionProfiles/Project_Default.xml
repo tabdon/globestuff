@@ -1,0 +1,147 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="268" name="JavaScript" />
+        <language minSize="496" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="image" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="style" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="JSCheckFunctionSignatures" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSValidateTypes" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="91">
+            <item index="0" class="java.lang.String" itemvalue="django-cors-middleware" />
+            <item index="1" class="java.lang.String" itemvalue="django-el-pagination" />
+            <item index="2" class="java.lang.String" itemvalue="PyYAML" />
+            <item index="3" class="java.lang.String" itemvalue="django-ordered-model" />
+            <item index="4" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="5" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="6" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="7" class="java.lang.String" itemvalue="pynamodb" />
+            <item index="8" class="java.lang.String" itemvalue="envs" />
+            <item index="9" class="java.lang.String" itemvalue="ndg-httpsclient" />
+            <item index="10" class="java.lang.String" itemvalue="django-extensions" />
+            <item index="11" class="java.lang.String" itemvalue="contextlib2" />
+            <item index="12" class="java.lang.String" itemvalue="Pygments" />
+            <item index="13" class="java.lang.String" itemvalue="sentry-sdk" />
+            <item index="14" class="java.lang.String" itemvalue="certifi" />
+            <item index="15" class="java.lang.String" itemvalue="stripe" />
+            <item index="16" class="java.lang.String" itemvalue="docutils" />
+            <item index="17" class="java.lang.String" itemvalue="shortuuid" />
+            <item index="18" class="java.lang.String" itemvalue="warrant" />
+            <item index="19" class="java.lang.String" itemvalue="django-toolbelt" />
+            <item index="20" class="java.lang.String" itemvalue="Markdown" />
+            <item index="21" class="java.lang.String" itemvalue="django-simple-math-captcha" />
+            <item index="22" class="java.lang.String" itemvalue="dj-database-url" />
+            <item index="23" class="java.lang.String" itemvalue="boto" />
+            <item index="24" class="java.lang.String" itemvalue="django-forms-bootstrap" />
+            <item index="25" class="java.lang.String" itemvalue="wrapt" />
+            <item index="26" class="java.lang.String" itemvalue="asgiref" />
+            <item index="27" class="java.lang.String" itemvalue="cryptography" />
+            <item index="28" class="java.lang.String" itemvalue="django-appconf" />
+            <item index="29" class="java.lang.String" itemvalue="uWSGI" />
+            <item index="30" class="java.lang.String" itemvalue="dj-static" />
+            <item index="31" class="java.lang.String" itemvalue="django-jsonfield" />
+            <item index="32" class="java.lang.String" itemvalue="whitenoise" />
+            <item index="33" class="java.lang.String" itemvalue="django-markdown-deux" />
+            <item index="34" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="35" class="java.lang.String" itemvalue="boto3" />
+            <item index="36" class="java.lang.String" itemvalue="suds-jurko" />
+            <item index="37" class="java.lang.String" itemvalue="django-filter" />
+            <item index="38" class="java.lang.String" itemvalue="typing" />
+            <item index="39" class="java.lang.String" itemvalue="PyGithub" />
+            <item index="40" class="java.lang.String" itemvalue="enum34" />
+            <item index="41" class="java.lang.String" itemvalue="idna" />
+            <item index="42" class="java.lang.String" itemvalue="ipaddress" />
+            <item index="43" class="java.lang.String" itemvalue="PyJWT" />
+            <item index="44" class="java.lang.String" itemvalue="python-jose-cryptodome" />
+            <item index="45" class="java.lang.String" itemvalue="jsonfield" />
+            <item index="46" class="java.lang.String" itemvalue="cffi" />
+            <item index="47" class="java.lang.String" itemvalue="django-pagedown" />
+            <item index="48" class="java.lang.String" itemvalue="django-pjax" />
+            <item index="49" class="java.lang.String" itemvalue="django-storages" />
+            <item index="50" class="java.lang.String" itemvalue="pyasn1" />
+            <item index="51" class="java.lang.String" itemvalue="requests" />
+            <item index="52" class="java.lang.String" itemvalue="ghdiff" />
+            <item index="53" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="54" class="java.lang.String" itemvalue="mdx-sections" />
+            <item index="55" class="java.lang.String" itemvalue="Deprecated" />
+            <item index="56" class="java.lang.String" itemvalue="pyOpenSSL" />
+            <item index="57" class="java.lang.String" itemvalue="django-rest-multiple-models" />
+            <item index="58" class="java.lang.String" itemvalue="xmltodict" />
+            <item index="59" class="java.lang.String" itemvalue="urllib3" />
+            <item index="60" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="61" class="java.lang.String" itemvalue="Cython" />
+            <item index="62" class="java.lang.String" itemvalue="django-cors-headers" />
+            <item index="63" class="java.lang.String" itemvalue="six" />
+            <item index="64" class="java.lang.String" itemvalue="botocore" />
+            <item index="65" class="java.lang.String" itemvalue="markdown2" />
+            <item index="66" class="java.lang.String" itemvalue="asn1crypto" />
+            <item index="67" class="java.lang.String" itemvalue="ecdsa" />
+            <item index="68" class="java.lang.String" itemvalue="django-debug-toolbar" />
+            <item index="69" class="java.lang.String" itemvalue="futures" />
+            <item index="70" class="java.lang.String" itemvalue="static3" />
+            <item index="71" class="java.lang.String" itemvalue="django-pipeline" />
+            <item index="72" class="java.lang.String" itemvalue="chardet" />
+            <item index="73" class="java.lang.String" itemvalue="jmespath" />
+            <item index="74" class="java.lang.String" itemvalue="mistune" />
+            <item index="75" class="java.lang.String" itemvalue="django-ipware" />
+            <item index="76" class="java.lang.String" itemvalue="s3transfer" />
+            <item index="77" class="java.lang.String" itemvalue="Django" />
+            <item index="78" class="java.lang.String" itemvalue="future" />
+            <item index="79" class="java.lang.String" itemvalue="django-amazon-ses" />
+            <item index="80" class="java.lang.String" itemvalue="pycryptodome" />
+            <item index="81" class="java.lang.String" itemvalue="pytz" />
+            <item index="82" class="java.lang.String" itemvalue="Pillow" />
+            <item index="83" class="java.lang.String" itemvalue="pytest-mock" />
+            <item index="84" class="java.lang.String" itemvalue="pytest-cov" />
+            <item index="85" class="java.lang.String" itemvalue="pytest" />
+            <item index="86" class="java.lang.String" itemvalue="bandit" />
+            <item index="87" class="java.lang.String" itemvalue="pylint" />
+            <item index="88" class="java.lang.String" itemvalue="safety" />
+            <item index="89" class="java.lang.String" itemvalue="tox" />
+            <item index="90" class="java.lang.String" itemvalue="moto" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="labs.api.views.labview.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="TsLint" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>
