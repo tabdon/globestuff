@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "globe_bounds",
+"features": [
+{ "type": "Feature", "properties": { "NAME": "BASE POLYGON 1" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -95.0, 90.0 ], [ 90, 90 ], [ 90, -90 ], [ -90.0, -90.0 ], [ -90.0, 90.0 ] ] ] } },
+{ "type": "Feature", "properties": { "NAME": "BASE POLYGON 2" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -90.0, 90.0 ], [ 90, 90 ], [ 90, -90 ], [ -90.0, -90.0 ], [ -90.0, 90.0 ] ] ] } }
+]
+}
