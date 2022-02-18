@@ -10,8 +10,9 @@ const Hex = () => {
   }, []);
 
   return <Globe
-    globeImageUrl="./lroc_color_poles_4k.jpg"
+    globeImageUrl="./lunar_surface.jpg"
     bumpImageUrl="./lunar_bumpmap.jpg"
+    backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
 
     hexPolygonsData={countries.features}
     hexPolygonResolution={3}
