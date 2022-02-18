@@ -13,6 +13,8 @@ const Hex = () => {
     globeImageUrl="./lroc_color_poles_16k.jpg"
     bumpImageUrl="./ldem_64_uint.jpg"
     backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
+    // backgroundImageUrl="./galaxy.jpeg"
+    // backgroundImageUrl="./hubble.png"
 
     hexPolygonsData={countries.features}
     hexPolygonResolution={3}
