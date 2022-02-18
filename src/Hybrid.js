@@ -6,7 +6,7 @@ const Hex = () => {
 
   useEffect(() => {
     // load data
-    fetch('./ne_110m_admin_0_countries.geojson').then(res => res.json()).then(setCountries);
+    fetch('./globe_bounds.geojson').then(res => res.json()).then(setCountries);
   }, []);
 
   return <Globe
@@ -15,11 +15,14 @@ const Hex = () => {
 
     hexPolygonsData={countries.features}
     hexPolygonResolution={3}
-    hexPolygonMargin={0.3}
-    hexPolygonColor={() => `#${Math.round(Math.random() * Math.pow(2, 24)).toString(16).padStart(6, '0')}`}
+    hexPolygonMargin={0.1}
+    // hexPolygonColor={() => `#${Math.round(Math.random() * Math.pow(2, 24)).toString(16).padStart(6, '0')}`}
+    hexPolygonColor={() => `#00000033`}
     hexPolygonLabel={({properties: d}) => `
-        <b>${d.ADMIN} (${d.ISO_A2})</b> <br />
-        Population: <i>${d.POP_EST}</i>
+        <div style="background-color: #${Math.round(Math.random() * Math.pow(2, 24)).toString(16).padStart(6, '0')}; color:black;">
+        <b>${d.NAME}</b> <br/>
+        <b>#${Math.round(Math.random() * Math.pow(2, 24)).toString(16).padStart(6, '0')}</b>
+        </div>
       `}
   />;
 };
