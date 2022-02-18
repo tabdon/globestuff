@@ -10,8 +10,8 @@ const Hex = () => {
   }, []);
 
   return <Globe
-    globeImageUrl="./Unified_Geologic_Map_of_the_Moon_Geology_32ppd.jpeg"
-    bumpImageUrl="./ldem_64_uint.jpg"
+    globeImageUrl="./Unified_Geologic_Map_of_the_Moon_64ppd_colormap.jpg"
+    bumpImageUrl="./Unified_Geologic_Map_of_the_Moon_64ppd.jpg"
     backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
 
     hexPolygonsData={countries.features}
